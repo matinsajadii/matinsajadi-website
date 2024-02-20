@@ -1,0 +1,17 @@
+/* Add this to your style.css file */
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-container {
+    max-width: 60%; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.image-container {
+    max-width: 35%; /* Adjust the width as needed */
+}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Home {% endblock %}
+
+{% block extra_headers %}
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="content-container">
+        <div class="text-container">
+            <p>Welcome. I am</p>
+            <h1 class="text-primary">Matin Sajadi</h1> 
+            <p>A.I enthusiast with a wide variety of professional experiences.</p><br>
+            <p class="btn btn-primary">Sign In</p>
+            <p class="btn btn-primary">Create Account</p>
+        </div>
+
+        <div class="image-container">
+            <img src="{% static 'home/img/brain sides-cuate.png' %}" alt="" width=350>
+        </div>
+    </div>
+
+{% endblock %}
