@@ -1,11 +1,11 @@
 /* Add this to your style.css file */
 
-.content-container {
+/* .content-container {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
+} */
 
 .text-container {
     max-width: 60%; /* Adjust the width as needed */

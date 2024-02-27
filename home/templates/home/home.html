@@ -9,18 +9,39 @@
 
 {% block content %}
 
-    <div class="content-container">
-        <div class="text-container">
-            <p>Welcome. I am</p>
-            <h1 class="text-primary">Matin Sajadi</h1> 
-            <p>A.I enthusiast with a wide variety of professional experiences.</p><br>
-            <p class="btn btn-primary">Sign In</p>
-            <p class="btn btn-primary">Create Account</p>
+    <style>
+        .img-circle {
+        border-radius: 50%;
+        overflow: hidden;
+        }
+    </style>
+    
+    <div class="container mt-4">
+        <div class="row align-items-center ">
+        <div class="col-md-6">
+            <div class="display-4 mb-4"> Hi, I am <span class="text-primary"> Matin Sajadi </span> </div>
+            <p class="lead mb-4 ">
+            I am an ML scientist working on the frontier of research & business.<br>
+            This website hosts my ML blog, portfolio, and more of my work. All opinions are my own.<br><br>
+            Check out my CV and other pages:<br><br>
+            🗣 public talks from AI meetups and conferences<br>
+            📚 scientific publications with abstracts and PDFs<br>
+            📁 portfolio with my ML projects in different domains
+            </p><br>
+            <a href="" class="btn btn-primary"> Download My CV </a>
         </div>
-
-        <div class="image-container">
-            <img src="{% static 'home/img/brain sides-cuate.png' %}" alt="" width=350>
+        
+        <div class="col-md-6">
+            <div class="img-circle">
+            <img src="https://media.licdn.com/dms/image/C5603AQGBMY9r8zfdNg/profile-displayphoto-shrink_800_800/0/1645804178111?e=2147483647&v=beta&t=6O-p0MZTk0TIMp7Jt9CZ1XGc6uebra4BKNqBHA1iH04" class="img-fluid">
+            </div>
+        </div>
         </div>
     </div>
 
 {% endblock %}
+
+
+
+
+
